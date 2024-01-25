@@ -1,0 +1,15 @@
+.co-input {
+  height: 36px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+
+  &:focus, &:visited, &:active {
+    border-color: #00A79D;
+    outline-color: #00A79D;
+  }
+}

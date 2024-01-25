@@ -1,0 +1,1142 @@
+[
+  {
+    "index": 1,
+    "arabicName": "الفاتحة",
+    "englishName": "The Opening",
+    "frankName": "Al-Faatiha",
+    "ayaCount": 7,
+    "suraType": "Meccan",
+    "pageStart": 1,
+    "pageEnd": 1
+  },
+  {
+    "index": 2,
+    "arabicName": "البقرة",
+    "englishName": "The Cow",
+    "frankName": "Al-Baqara",
+    "ayaCount": 286,
+    "suraType": "Medinan",
+    "pageStart": 2,
+    "pageEnd": 49
+  },
+  {
+    "index": 3,
+    "arabicName": "آل عمران",
+    "englishName": "The Family of Imraan",
+    "frankName": "Aal-Imran",
+    "ayaCount": 200,
+    "suraType": "Medinan",
+    "pageStart": 50,
+    "pageEnd": 76
+  },
+  {
+    "index": 4,
+    "arabicName": "النساء",
+    "englishName": "The Women",
+    "frankName": "An-Nisaa",
+    "ayaCount": 176,
+    "suraType": "Medinan",
+    "pageStart": 77,
+    "pageEnd": 106
+  },
+  {
+    "index": 5,
+    "arabicName": "المائدة",
+    "englishName": "The Table",
+    "frankName": "Al-Maaida",
+    "ayaCount": 120,
+    "suraType": "Medinan",
+    "pageStart": 106,
+    "pageEnd": 127
+  },
+  {
+    "index": 6,
+    "arabicName": "الأنعام",
+    "englishName": "The Cattle",
+    "frankName": "Al-An'aam",
+    "ayaCount": 165,
+    "suraType": "Meccan",
+    "pageStart": 128,
+    "pageEnd": 150
+  },
+  {
+    "index": 7,
+    "arabicName": "الأعراف",
+    "englishName": "The Heights",
+    "frankName": "Al-A'raaf",
+    "ayaCount": 206,
+    "suraType": "Meccan",
+    "pageStart": 151,
+    "pageEnd": 176
+  },
+  {
+    "index": 8,
+    "arabicName": "الأنفال",
+    "englishName": "The Spoils of War",
+    "frankName": "Al-Anfaal",
+    "ayaCount": 75,
+    "suraType": "Medinan",
+    "pageStart": 177,
+    "pageEnd": 186
+  },
+  {
+    "index": 9,
+    "arabicName": "التوبة",
+    "englishName": "The Repentance",
+    "frankName": "At-Tawba",
+    "ayaCount": 129,
+    "suraType": "Medinan",
+    "pageStart": 187,
+    "pageEnd": 207
+  },
+  {
+    "index": 10,
+    "arabicName": "يونس",
+    "englishName": "Jonas",
+    "frankName": "Yunus",
+    "ayaCount": 109,
+    "suraType": "Meccan",
+    "pageStart": 208,
+    "pageEnd": 221
+  },
+  {
+    "index": 11,
+    "arabicName": "هود",
+    "englishName": "Hud",
+    "frankName": "Hud",
+    "ayaCount": 123,
+    "suraType": "Meccan",
+    "pageStart": 221,
+    "pageEnd": 235
+  },
+  {
+    "index": 12,
+    "arabicName": "يوسف",
+    "englishName": "Joseph",
+    "frankName": "Yusuf",
+    "ayaCount": 111,
+    "suraType": "Meccan",
+    "pageStart": 235,
+    "pageEnd": 248
+  },
+  {
+    "index": 13,
+    "arabicName": "الرعد",
+    "englishName": "The Thunder",
+    "frankName": "Ar-Ra'd",
+    "ayaCount": 43,
+    "suraType": "Medinan",
+    "pageStart": 249,
+    "pageEnd": 255
+  },
+  {
+    "index": 14,
+    "arabicName": "ابراهيم",
+    "englishName": "Abraham",
+    "frankName": "Ibrahim",
+    "ayaCount": 52,
+    "suraType": "Meccan",
+    "pageStart": 255,
+    "pageEnd": 261
+  },
+  {
+    "index": 15,
+    "arabicName": "الحجر",
+    "englishName": "The Rock",
+    "frankName": "Al-Hijr",
+    "ayaCount": 99,
+    "suraType": "Meccan",
+    "pageStart": 262,
+    "pageEnd": 267
+  },
+  {
+    "index": 16,
+    "arabicName": "النحل",
+    "englishName": "The Bee",
+    "frankName": "An-Nahl",
+    "ayaCount": 128,
+    "suraType": "Meccan",
+    "pageStart": 267,
+    "pageEnd": 281
+  },
+  {
+    "index": 17,
+    "arabicName": "الإسراء",
+    "englishName": "The Night Journey",
+    "frankName": "Al-Israa",
+    "ayaCount": 111,
+    "suraType": "Meccan",
+    "pageStart": 282,
+    "pageEnd": 293
+  },
+  {
+    "index": 18,
+    "arabicName": "الكهف",
+    "englishName": "The Cave",
+    "frankName": "Al-Kahf",
+    "ayaCount": 110,
+    "suraType": "Meccan",
+    "pageStart": 293,
+    "pageEnd": 304
+  },
+  {
+    "index": 19,
+    "arabicName": "مريم",
+    "englishName": "Mary",
+    "frankName": "Maryam",
+    "ayaCount": 98,
+    "suraType": "Meccan",
+    "pageStart": 305,
+    "pageEnd": 312
+  },
+  {
+    "index": 20,
+    "arabicName": "طه",
+    "englishName": "Taa-Haa",
+    "frankName": "Taa-Haa",
+    "ayaCount": 135,
+    "suraType": "Meccan",
+    "pageStart": 312,
+    "pageEnd": 321
+  },
+  {
+    "index": 21,
+    "arabicName": "الأنبياء",
+    "englishName": "The Prophets",
+    "frankName": "Al-Anbiyaa",
+    "ayaCount": 112,
+    "suraType": "Meccan",
+    "pageStart": 322,
+    "pageEnd": 331
+  },
+  {
+    "index": 22,
+    "arabicName": "الحج",
+    "englishName": "The Pilgrimage",
+    "frankName": "Al-Hajj",
+    "ayaCount": 78,
+    "suraType": "Medinan",
+    "pageStart": 332,
+    "pageEnd": 341
+  },
+  {
+    "index": 23,
+    "arabicName": "المؤمنون",
+    "englishName": "The Believers",
+    "frankName": "Al-Muminoon",
+    "ayaCount": 118,
+    "suraType": "Meccan",
+    "pageStart": 342,
+    "pageEnd": 349
+  },
+  {
+    "index": 24,
+    "arabicName": "النور",
+    "englishName": "The Light",
+    "frankName": "An-Noor",
+    "ayaCount": 64,
+    "suraType": "Medinan",
+    "pageStart": 350,
+    "pageEnd": 359
+  },
+  {
+    "index": 25,
+    "arabicName": "الفرقان",
+    "englishName": "The Criterion",
+    "frankName": "Al-Furqaan",
+    "ayaCount": 77,
+    "suraType": "Meccan",
+    "pageStart": 359,
+    "pageEnd": 366
+  },
+  {
+    "index": 26,
+    "arabicName": "الشعراء",
+    "englishName": "The Poets",
+    "frankName": "Ash-Shu'araa",
+    "ayaCount": 227,
+    "suraType": "Meccan",
+    "pageStart": 367,
+    "pageEnd": 376
+  },
+  {
+    "index": 27,
+    "arabicName": "النمل",
+    "englishName": "The Ant",
+    "frankName": "An-Naml",
+    "ayaCount": 93,
+    "suraType": "Meccan",
+    "pageStart": 377,
+    "pageEnd": 385
+  },
+  {
+    "index": 28,
+    "arabicName": "القصص",
+    "englishName": "The Stories",
+    "frankName": "Al-Qasas",
+    "ayaCount": 88,
+    "suraType": "Meccan",
+    "pageStart": 385,
+    "pageEnd": 396
+  },
+  {
+    "index": 29,
+    "arabicName": "العنكبوت",
+    "englishName": "The Spider",
+    "frankName": "Al-Ankaboot",
+    "ayaCount": 69,
+    "suraType": "Meccan",
+    "pageStart": 396,
+    "pageEnd": 404
+  },
+  {
+    "index": 30,
+    "arabicName": "الروم",
+    "englishName": "The Romans",
+    "frankName": "Ar-Room",
+    "ayaCount": 60,
+    "suraType": "Meccan",
+    "pageStart": 404,
+    "pageEnd": 410
+  },
+  {
+    "index": 31,
+    "arabicName": "لقمان",
+    "englishName": "Luqman",
+    "frankName": "Luqman",
+    "ayaCount": 34,
+    "suraType": "Meccan",
+    "pageStart": 411,
+    "pageEnd": 414
+  },
+  {
+    "index": 32,
+    "arabicName": "السجدة",
+    "englishName": "The Prostration",
+    "frankName": "As-Sajda",
+    "ayaCount": 30,
+    "suraType": "Meccan",
+    "pageStart": 415,
+    "pageEnd": 417
+  },
+  {
+    "index": 33,
+    "arabicName": "الأحزاب",
+    "englishName": "The Clans",
+    "frankName": "Al-Ahzaab",
+    "ayaCount": 73,
+    "suraType": "Medinan",
+    "pageStart": 418,
+    "pageEnd": 427
+  },
+  {
+    "index": 34,
+    "arabicName": "سبإ",
+    "englishName": "Sheba",
+    "frankName": "Saba",
+    "ayaCount": 54,
+    "suraType": "Meccan",
+    "pageStart": 428,
+    "pageEnd": 434
+  },
+  {
+    "index": 35,
+    "arabicName": "فاطر",
+    "englishName": "The Originator",
+    "frankName": "Faatir",
+    "ayaCount": 45,
+    "suraType": "Meccan",
+    "pageStart": 434,
+    "pageEnd": 440
+  },
+  {
+    "index": 36,
+    "arabicName": "يس",
+    "englishName": "Yaseen",
+    "frankName": "Yaseen",
+    "ayaCount": 83,
+    "suraType": "Meccan",
+    "pageStart": 440,
+    "pageEnd": 445
+  },
+  {
+    "index": 37,
+    "arabicName": "الصافات",
+    "englishName": "Those drawn up in Ranks",
+    "frankName": "As-Saaffaat",
+    "ayaCount": 182,
+    "suraType": "Meccan",
+    "pageStart": 446,
+    "pageEnd": 452
+  },
+  {
+    "index": 38,
+    "arabicName": "ص",
+    "englishName": "The letter Saad",
+    "frankName": "Saad",
+    "ayaCount": 88,
+    "suraType": "Meccan",
+    "pageStart": 453,
+    "pageEnd": 458
+  },
+  {
+    "index": 39,
+    "arabicName": "الزمر",
+    "englishName": "The Groups",
+    "frankName": "Az-Zumar",
+    "ayaCount": 75,
+    "suraType": "Meccan",
+    "pageStart": 458,
+    "pageEnd": 467
+  },
+  {
+    "index": 40,
+    "arabicName": "غافر",
+    "englishName": "The Forgiver",
+    "frankName": "Ghafir",
+    "ayaCount": 85,
+    "suraType": "Meccan",
+    "pageStart": 467,
+    "pageEnd": 476
+  },
+  {
+    "index": 41,
+    "arabicName": "فصلت",
+    "englishName": "Explained in detail",
+    "frankName": "Fussilat",
+    "ayaCount": 54,
+    "suraType": "Meccan",
+    "pageStart": 474,
+    "pageEnd": 482
+  },
+  {
+    "index": 42,
+    "arabicName": "الشورى",
+    "englishName": "Consultation",
+    "frankName": "Ash-Shura",
+    "ayaCount": 53,
+    "suraType": "Meccan",
+    "pageStart": 483,
+    "pageEnd": 489
+  },
+  {
+    "index": 43,
+    "arabicName": "الزخرف",
+    "englishName": "Ornaments of gold",
+    "frankName": "Az-Zukhruf",
+    "ayaCount": 89,
+    "suraType": "Meccan",
+    "pageStart": 489,
+    "pageEnd": 495
+  },
+  {
+    "index": 44,
+    "arabicName": "الدخان",
+    "englishName": "The Smoke",
+    "frankName": "Ad-Dukhaan",
+    "ayaCount": 59,
+    "suraType": "Meccan",
+    "pageStart": 496,
+    "pageEnd": 498
+  },
+  {
+    "index": 45,
+    "arabicName": "الجاثية",
+    "englishName": "Crouching",
+    "frankName": "Al-Jaathiya",
+    "ayaCount": 37,
+    "suraType": "Meccan",
+    "pageStart": 499,
+    "pageEnd": 502
+  },
+  {
+    "index": 46,
+    "arabicName": "الأحقاف",
+    "englishName": "The Dunes",
+    "frankName": "Al-Ahqaf",
+    "ayaCount": 35,
+    "suraType": "Meccan",
+    "pageStart": 502,
+    "pageEnd": 506
+  },
+  {
+    "index": 47,
+    "arabicName": "محمد",
+    "englishName": "Muhammad",
+    "frankName": "Muhammad",
+    "ayaCount": 38,
+    "suraType": "Medinan",
+    "pageStart": 507,
+    "pageEnd": 510
+  },
+  {
+    "index": 48,
+    "arabicName": "الفتح",
+    "englishName": "The Victory",
+    "frankName": "Al-Fath",
+    "ayaCount": 29,
+    "suraType": "Medinan",
+    "pageStart": 511,
+    "pageEnd": 515
+  },
+  {
+    "index": 49,
+    "arabicName": "الحجرات",
+    "englishName": "The Inner Apartments",
+    "frankName": "Al-Hujuraat",
+    "ayaCount": 18,
+    "suraType": "Medinan",
+    "pageStart": 515,
+    "pageEnd": 517
+  },
+  {
+    "index": 50,
+    "arabicName": "ق",
+    "englishName": "The letter Qaaf",
+    "frankName": "Qaaf",
+    "ayaCount": 45,
+    "suraType": "Meccan",
+    "pageStart": 518,
+    "pageEnd": 520
+  },
+  {
+    "index": 51,
+    "arabicName": "الذاريات",
+    "englishName": "The Winnowing Winds",
+    "frankName": "Adh-Dhaariyat",
+    "ayaCount": 60,
+    "suraType": "Meccan",
+    "pageStart": 520,
+    "pageEnd": 523
+  },
+  {
+    "index": 52,
+    "arabicName": "الطور",
+    "englishName": "The Mount",
+    "frankName": "At-Tur",
+    "ayaCount": 49,
+    "suraType": "Meccan",
+    "pageStart": 523,
+    "pageEnd": 525
+  },
+  {
+    "index": 53,
+    "arabicName": "النجم",
+    "englishName": "The Star",
+    "frankName": "An-Najm",
+    "ayaCount": 62,
+    "suraType": "Meccan",
+    "pageStart": 526,
+    "pageEnd": 528
+  },
+  {
+    "index": 54,
+    "arabicName": "القمر",
+    "englishName": "The Moon",
+    "frankName": "Al-Qamar",
+    "ayaCount": 55,
+    "suraType": "Meccan",
+    "pageStart": 528,
+    "pageEnd": 531
+  },
+  {
+    "index": 55,
+    "arabicName": "الرحمن",
+    "englishName": "The Beneficent",
+    "frankName": "Ar-Rahmaan",
+    "ayaCount": 78,
+    "suraType": "Medinan",
+    "pageStart": 531,
+    "pageEnd": 534
+  },
+  {
+    "index": 56,
+    "arabicName": "الواقعة",
+    "englishName": "The Inevitable",
+    "frankName": "Al-Waaqia",
+    "ayaCount": 96,
+    "suraType": "Meccan",
+    "pageStart": 534,
+    "pageEnd": 537
+  },
+  {
+    "index": 57,
+    "arabicName": "الحديد",
+    "englishName": "The Iron",
+    "frankName": "Al-Hadid",
+    "ayaCount": 29,
+    "suraType": "Medinan",
+    "pageStart": 537,
+    "pageEnd": 541
+  },
+  {
+    "index": 58,
+    "arabicName": "المجادلة",
+    "englishName": "The Pleading Woman",
+    "frankName": "Al-Mujaadila",
+    "ayaCount": 22,
+    "suraType": "Medinan",
+    "pageStart": 542,
+    "pageEnd": 545
+  },
+  {
+    "index": 59,
+    "arabicName": "الحشر",
+    "englishName": "The Exile",
+    "frankName": "Al-Hashr",
+    "ayaCount": 24,
+    "suraType": "Medinan",
+    "pageStart": 545,
+    "pageEnd": 548
+  },
+  {
+    "index": 60,
+    "arabicName": "الممتحنة",
+    "englishName": "She that is to be examined",
+    "frankName": "Al-Mumtahana",
+    "ayaCount": 13,
+    "suraType": "Medinan",
+    "pageStart": 549,
+    "pageEnd": 551
+  },
+  {
+    "index": 61,
+    "arabicName": "الصف",
+    "englishName": "The Ranks",
+    "frankName": "As-Saff",
+    "ayaCount": 14,
+    "suraType": "Medinan",
+    "pageStart": 551,
+    "pageEnd": 552
+  },
+  {
+    "index": 62,
+    "arabicName": "الجمعة",
+    "englishName": "Friday",
+    "frankName": "Al-Jumu'a",
+    "ayaCount": 11,
+    "suraType": "Medinan",
+    "pageStart": 553,
+    "pageEnd": 554
+  },
+  {
+    "index": 63,
+    "arabicName": "المنافقون",
+    "englishName": "The Hypocrites",
+    "frankName": "Al-Munaafiqoon",
+    "ayaCount": 11,
+    "suraType": "Medinan",
+    "pageStart": 554,
+    "pageEnd": 555
+  },
+  {
+    "index": 64,
+    "arabicName": "التغابن",
+    "englishName": "Mutual Disillusion",
+    "frankName": "At-Taghaabun",
+    "ayaCount": 18,
+    "suraType": "Medinan",
+    "pageStart": 556,
+    "pageEnd": 557
+  },
+  {
+    "index": 65,
+    "arabicName": "الطلاق",
+    "englishName": "Divorce",
+    "frankName": "At-Talaaq",
+    "ayaCount": 12,
+    "suraType": "Medinan",
+    "pageStart": 558,
+    "pageEnd": 559
+  },
+  {
+    "index": 66,
+    "arabicName": "التحريم",
+    "englishName": "The Prohibition",
+    "frankName": "At-Tahrim",
+    "ayaCount": 12,
+    "suraType": "Medinan",
+    "pageStart": 560,
+    "pageEnd": 561
+  },
+  {
+    "index": 67,
+    "arabicName": "الملك",
+    "englishName": "The Sovereignty",
+    "frankName": "Al-Mulk",
+    "ayaCount": 30,
+    "suraType": "Meccan",
+    "pageStart": 562,
+    "pageEnd": 564
+  },
+  {
+    "index": 68,
+    "arabicName": "القلم",
+    "englishName": "The Pen",
+    "frankName": "Al-Qalam",
+    "ayaCount": 52,
+    "suraType": "Meccan",
+    "pageStart": 564,
+    "pageEnd": 566
+  },
+  {
+    "index": 69,
+    "arabicName": "الحاقة",
+    "englishName": "The Reality",
+    "frankName": "Al-Haaqqa",
+    "ayaCount": 52,
+    "suraType": "Meccan",
+    "pageStart": 566,
+    "pageEnd": 568
+  },
+  {
+    "index": 70,
+    "arabicName": "المعارج",
+    "englishName": "The Ascending Stairways",
+    "frankName": "Al-Ma'aarij",
+    "ayaCount": 44,
+    "suraType": "Meccan",
+    "pageStart": 568,
+    "pageEnd": 570
+  },
+  {
+    "index": 71,
+    "arabicName": "نوح",
+    "englishName": "Noah",
+    "frankName": "Nooh",
+    "ayaCount": 28,
+    "suraType": "Meccan",
+    "pageStart": 570,
+    "pageEnd": 571
+  },
+  {
+    "index": 72,
+    "arabicName": "الجن",
+    "englishName": "The Jinn",
+    "frankName": "Al-Jinn",
+    "ayaCount": 28,
+    "suraType": "Meccan",
+    "pageStart": 572,
+    "pageEnd": 573
+  },
+  {
+    "index": 73,
+    "arabicName": "المزمل",
+    "englishName": "The Enshrouded One",
+    "frankName": "Al-Muzzammil",
+    "ayaCount": 20,
+    "suraType": "Meccan",
+    "pageStart": 574,
+    "pageEnd": 575
+  },
+  {
+    "index": 74,
+    "arabicName": "المدثر",
+    "englishName": "The Cloaked One",
+    "frankName": "Al-Muddaththir",
+    "ayaCount": 56,
+    "suraType": "Meccan",
+    "pageStart": 575,
+    "pageEnd": 577
+  },
+  {
+    "index": 75,
+    "arabicName": "القيامة",
+    "englishName": "The Resurrection",
+    "frankName": "Al-Qiyaama",
+    "ayaCount": 40,
+    "suraType": "Meccan",
+    "pageStart": 577,
+    "pageEnd": 578
+  },
+  {
+    "index": 76,
+    "arabicName": "الانسان",
+    "englishName": "Man",
+    "frankName": "Al-Insaan",
+    "ayaCount": 31,
+    "suraType": "Medinan",
+    "pageStart": 578,
+    "pageEnd": 580
+  },
+  {
+    "index": 77,
+    "arabicName": "المرسلات",
+    "englishName": "The Emissaries",
+    "frankName": "Al-Mursalaat",
+    "ayaCount": 50,
+    "suraType": "Meccan",
+    "pageStart": 580,
+    "pageEnd": 581
+  },
+  {
+    "index": 78,
+    "arabicName": "النبإ",
+    "englishName": "The Announcement",
+    "frankName": "An-Naba",
+    "ayaCount": 40,
+    "suraType": "Meccan",
+    "pageStart": 582,
+    "pageEnd": 583
+  },
+  {
+    "index": 79,
+    "arabicName": "النازعات",
+    "englishName": "Those who drag forth",
+    "frankName": "An-Naazi'aat",
+    "ayaCount": 46,
+    "suraType": "Meccan",
+    "pageStart": 583,
+    "pageEnd": 584
+  },
+  {
+    "index": 80,
+    "arabicName": "عبس",
+    "englishName": "He frowned",
+    "frankName": "Abasa",
+    "ayaCount": 42,
+    "suraType": "Meccan",
+    "pageStart": 585,
+    "pageEnd": 586
+  },
+  {
+    "index": 81,
+    "arabicName": "التكوير",
+    "englishName": "The Overthrowing",
+    "frankName": "At-Takwir",
+    "ayaCount": 29,
+    "suraType": "Meccan",
+    "pageStart": 586,
+    "pageEnd": 586
+  },
+  {
+    "index": 82,
+    "arabicName": "الإنفطار",
+    "englishName": "The Cleaving",
+    "frankName": "Al-Infitaar",
+    "ayaCount": 19,
+    "suraType": "Meccan",
+    "pageStart": 587,
+    "pageEnd": 587
+  },
+  {
+    "index": 83,
+    "arabicName": "المطففين",
+    "englishName": "Defrauding",
+    "frankName": "Al-Mutaffifin",
+    "ayaCount": 36,
+    "suraType": "Meccan",
+    "pageStart": 587,
+    "pageEnd": 589
+  },
+  {
+    "index": 84,
+    "arabicName": "الإنشقاق",
+    "englishName": "The Splitting Open",
+    "frankName": "Al-Inshiqaaq",
+    "ayaCount": 25,
+    "suraType": "Meccan",
+    "pageStart": 589,
+    "pageEnd": 590
+  },
+  {
+    "index": 85,
+    "arabicName": "البروج",
+    "englishName": "The Constellations",
+    "frankName": "Al-Burooj",
+    "ayaCount": 22,
+    "suraType": "Meccan",
+    "pageStart": 590,
+    "pageEnd": 590
+  },
+  {
+    "index": 86,
+    "arabicName": "الطارق",
+    "englishName": "The Morning Star",
+    "frankName": "At-Taariq",
+    "ayaCount": 17,
+    "suraType": "Meccan",
+    "pageStart": 591,
+    "pageEnd": 591
+  },
+  {
+    "index": 87,
+    "arabicName": "الأعلى",
+    "englishName": "The Most High",
+    "frankName": "Al-A'laa",
+    "ayaCount": 19,
+    "suraType": "Meccan",
+    "pageStart": 591,
+    "pageEnd": 592
+  },
+  {
+    "index": 88,
+    "arabicName": "الغاشية",
+    "englishName": "The Overwhelming",
+    "frankName": "Al-Ghaashiya",
+    "ayaCount": 26,
+    "suraType": "Meccan",
+    "pageStart": 592,
+    "pageEnd": 593
+  },
+  {
+    "index": 89,
+    "arabicName": "الفجر",
+    "englishName": "The Dawn",
+    "frankName": "Al-Fajr",
+    "ayaCount": 30,
+    "suraType": "Meccan",
+    "pageStart": 593,
+    "pageEnd": 594
+  },
+  {
+    "index": 90,
+    "arabicName": "البلد",
+    "englishName": "The City",
+    "frankName": "Al-Balad",
+    "ayaCount": 20,
+    "suraType": "Meccan",
+    "pageStart": 594,
+    "pageEnd": 595
+  },
+  {
+    "index": 91,
+    "arabicName": "الشمس",
+    "englishName": "The Sun",
+    "frankName": "Ash-Shams",
+    "ayaCount": 15,
+    "suraType": "Meccan",
+    "pageStart": 595,
+    "pageEnd": 595
+  },
+  {
+    "index": 92,
+    "arabicName": "الليل",
+    "englishName": "The Night",
+    "frankName": "Al-Lail",
+    "ayaCount": 21,
+    "suraType": "Meccan",
+    "pageStart": 595,
+    "pageEnd": 596
+  },
+  {
+    "index": 93,
+    "arabicName": "الضحى",
+    "englishName": "The Morning Hours",
+    "frankName": "Ad-Dhuhaa",
+    "ayaCount": 11,
+    "suraType": "Meccan",
+    "pageStart": 596,
+    "pageEnd": 596
+  },
+  {
+    "index": 94,
+    "arabicName": "الشرح",
+    "englishName": "The Consolation",
+    "frankName": "Ash-Sharh",
+    "ayaCount": 8,
+    "suraType": "Meccan",
+    "pageStart": 596,
+    "pageEnd": 597
+  },
+  {
+    "index": 95,
+    "arabicName": "التين",
+    "englishName": "The Fig",
+    "frankName": "At-Tin",
+    "ayaCount": 8,
+    "suraType": "Meccan",
+    "pageStart": 597,
+    "pageEnd": 597
+  },
+  {
+    "index": 96,
+    "arabicName": "العلق",
+    "englishName": "The Clot",
+    "frankName": "Al-Alaq",
+    "ayaCount": 19,
+    "suraType": "Meccan",
+    "pageStart": 597,
+    "pageEnd": 598
+  },
+  {
+    "index": 97,
+    "arabicName": "القدر",
+    "englishName": "The Power, Fate",
+    "frankName": "Al-Qadr",
+    "ayaCount": 5,
+    "suraType": "Meccan",
+    "pageStart": 598,
+    "pageEnd": 598
+  },
+  {
+    "index": 98,
+    "arabicName": "البينة",
+    "englishName": "The Evidence",
+    "frankName": "Al-Bayyina",
+    "ayaCount": 8,
+    "suraType": "Medinan",
+    "pageStart": 598,
+    "pageEnd": 599
+  },
+  {
+    "index": 99,
+    "arabicName": "الزلزلة",
+    "englishName": "The Earthquake",
+    "frankName": "Az-Zalzala",
+    "ayaCount": 8,
+    "suraType": "Medinan",
+    "pageStart": 599,
+    "pageEnd": 599
+  },
+  {
+    "index": 100,
+    "arabicName": "العاديات",
+    "englishName": "The Chargers",
+    "frankName": "Al-Aadiyaat",
+    "ayaCount": 11,
+    "suraType": "Meccan",
+    "pageStart": 599,
+    "pageEnd": 600
+  },
+  {
+    "index": 101,
+    "arabicName": "القارعة",
+    "englishName": "The Calamity",
+    "frankName": "Al-Qaari'a",
+    "ayaCount": 11,
+    "suraType": "Meccan",
+    "pageStart": 600,
+    "pageEnd": 600
+  },
+  {
+    "index": 102,
+    "arabicName": "التكاثر",
+    "englishName": "Competition",
+    "frankName": "At-Takaathur",
+    "ayaCount": 8,
+    "suraType": "Meccan",
+    "pageStart": 600,
+    "pageEnd": 600
+  },
+  {
+    "index": 103,
+    "arabicName": "العصر",
+    "englishName": "The Declining Day, Epoch",
+    "frankName": "Al-Asr",
+    "ayaCount": 3,
+    "suraType": "Meccan",
+    "pageStart": 601,
+    "pageEnd": 601
+  },
+  {
+    "index": 104,
+    "arabicName": "الهمزة",
+    "englishName": "The Traducer",
+    "frankName": "Al-Humaza",
+    "ayaCount": 9,
+    "suraType": "Meccan",
+    "pageStart": 601,
+    "pageEnd": 601
+  },
+  {
+    "index": 105,
+    "arabicName": "الفيل",
+    "englishName": "The Elephant",
+    "frankName": "Al-Fil",
+    "ayaCount": 5,
+    "suraType": "Meccan",
+    "pageStart": 601,
+    "pageEnd": 601
+  },
+  {
+    "index": 106,
+    "arabicName": "قريش",
+    "englishName": "Quraysh",
+    "frankName": "Quraish",
+    "ayaCount": 4,
+    "suraType": "Meccan",
+    "pageStart": 602,
+    "pageEnd": 602
+  },
+  {
+    "index": 107,
+    "arabicName": "الماعون",
+    "englishName": "Almsgiving",
+    "frankName": "Al-Maa'un",
+    "ayaCount": 7,
+    "suraType": "Meccan",
+    "pageStart": 602,
+    "pageEnd": 602
+  },
+  {
+    "index": 108,
+    "arabicName": "الكوثر",
+    "englishName": "Abundance",
+    "frankName": "Al-Kawthar",
+    "ayaCount": 3,
+    "suraType": "Meccan",
+    "pageStart": 602,
+    "pageEnd": 602
+  },
+  {
+    "index": 109,
+    "arabicName": "الكافرون",
+    "englishName": "The Disbelievers",
+    "frankName": "Al-Kaafiroon",
+    "ayaCount": 6,
+    "suraType": "Meccan",
+    "pageStart": 603,
+    "pageEnd": 603
+  },
+  {
+    "index": 110,
+    "arabicName": "النصر",
+    "englishName": "Divine Support",
+    "frankName": "An-Nasr",
+    "ayaCount": 3,
+    "suraType": "Medinan",
+    "pageStart": 603,
+    "pageEnd": 603
+  },
+  {
+    "index": 111,
+    "arabicName": "المسد",
+    "englishName": "The Palm Fibre",
+    "frankName": "Al-Masad",
+    "ayaCount": 5,
+    "suraType": "Meccan",
+    "pageStart": 603,
+    "pageEnd": 603
+  },
+  {
+    "index": 112,
+    "arabicName": "الإخلاص",
+    "englishName": "Sincerity",
+    "frankName": "Al-Ikhlaas",
+    "ayaCount": 4,
+    "suraType": "Meccan",
+    "pageStart": 604,
+    "pageEnd": 604
+  },
+  {
+    "index": 113,
+    "arabicName": "الفلق",
+    "englishName": "The Dawn",
+    "frankName": "Al-Falaq",
+    "ayaCount": 5,
+    "suraType": "Meccan",
+    "pageStart": 604,
+    "pageEnd": 604
+  },
+  {
+    "index": 114,
+    "arabicName": "الناس",
+    "englishName": "Mankind",
+    "frankName": "An-Naas",
+    "ayaCount": 6,
+    "suraType": "Meccan",
+    "pageStart": 604,
+    "pageEnd": 604
+  }
+]

@@ -1,0 +1,27 @@
+.quran-page {
+  //height: 690px;
+  //width: 475px;
+  position: relative;
+
+
+  &__img {
+    width: 456px;
+    @media screen and (max-width: 960px) {
+      width: auto;
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    width: auto;
+  }
+}
+
+.page-content {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+
+  @media screen and (max-width: 960px) {
+    width: auto;
+  }
+}

@@ -1,0 +1,35 @@
+{
+    "data": [
+        {
+            "ayaNumber": 6,
+            "highlighterId": "6",
+            "styles": [
+                370,
+                42,
+                50
+            ],
+            "isSingleHighlighter": false
+        },
+        {
+            "ayaNumber": 6,
+            "highlighterId": "6_1",
+            "styles": [
+                70,
+                42,
+                160
+            ],
+            "isSingleHighlighter": true
+        },
+        {
+            "ayaNumber": 6,
+            "highlighterId": "6",
+            "styles": [
+                66,
+                85,
+                350
+            ],
+            "isSingleHighlighter": false
+        }
+    ]
+}
+

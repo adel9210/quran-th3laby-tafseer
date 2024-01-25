@@ -1,0 +1,20 @@
+.select {
+  height: 36px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+
+
+  &__value {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 0;
+
+    &__placeholder {
+      color: #808080;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  & > * {
+    margin-inline-start: 15px;
+    margin-bottom: 15px;
+    flex: 1;
+  }
+}
