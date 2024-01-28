@@ -22,7 +22,7 @@
   }
 
   &__view {
-    background-color: #f4f4f4;
+    //background-color: #f4f4f4;
     //display: flex;
     position: relative;
     z-index: 10;
@@ -45,7 +45,7 @@
     &__view {
       background-color: transparent;
       flex-direction: column !important;
-      width: 456px;
+      width: 100%;
       margin: 0 auto;
     }
 
@@ -54,7 +54,7 @@
     }
     &__controls {
       top: unset;
-      bottom: 100px;
+      bottom: 0;
     }
   }
 }

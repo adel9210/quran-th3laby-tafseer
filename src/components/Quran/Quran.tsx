@@ -46,10 +46,8 @@ export const Quran = () => {
 
     const updateUrlWithParams = (paramsObject: any): void => {
         const currentUrl = new URL(window.location.href);
-        const urlParams = objectToUrlParams(paramsObject);
-
         // Set or update the query parameters
-        currentUrl.search = urlParams;
+        currentUrl.search = objectToUrlParams(paramsObject);
 
         // Replace the current URL with the updated one
         window.history.replaceState(null, '', currentUrl.toString());
