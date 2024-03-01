@@ -70,18 +70,18 @@ export const Header = (props: Props) => {
                                 <SelectModal placeholder='إختر' value={filter?.currentAya}
                                              onClick={() => onModalSelectClick('isAyaModalOpen')}/>
                             </div>
-                            <div className='header__pair__item__control'>
-                                <label className='header__pair__item__control__label'>لغة التفسير</label>
-                                <Select styles={style}
-                                        options={tafseerLanguage}
-                                        onChange={(item) => {
-                                            dispatch(setFilter({
-                                                key: 'tafseerLang',
-                                                value: item?.value || ''
-                                            }))
-                                        }}
-                                        placeholder='إختر'/>
-                            </div>
+                            {/*<div className='header__pair__item__control'>*/}
+                            {/*    <label className='header__pair__item__control__label'>لغة التفسير</label>*/}
+                            {/*    <Select styles={style}*/}
+                            {/*            options={tafseerLanguage}*/}
+                            {/*            onChange={(item) => {*/}
+                            {/*                dispatch(setFilter({*/}
+                            {/*                    key: 'tafseerLang',*/}
+                            {/*                    value: item?.value || ''*/}
+                            {/*                }))*/}
+                            {/*            }}*/}
+                            {/*            placeholder='إختر'/>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                 </Col>
