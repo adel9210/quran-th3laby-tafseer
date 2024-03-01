@@ -1,34 +1,25 @@
 import {createSlice, PayloadAction} from '@reduxjs/toolkit'
 import {filterTypes, Sura, Tafseer} from "../types";
 import {
-    getGoz2Details,
     getPageDetails,
     getPageDetailsBySuraAndAyaNumber,
-    getQuarterDetail,
     getSuraList,
-    getSuraQuarter
 } from "../services/client.service";
 
 export interface QuranSliceType {
-    // highlighterHoverId: string
-    // highlighterActiveId: string,
     activeSuraInfo: Sura,
     activeTafseerPage:Tafseer[];
     modal?: {
         isSuraModalOpen?: boolean
         isAyaModalOpen?: boolean
-        // isPageModalOpen?: boolean,
-        // isGoz2ModalOpen?: boolean,
-        // isTafseerModalOpen?: boolean,
         isMobileFilterModalOpen?: boolean,
     },
     filter?: {
         currentPage?: string,
         currentSura?: string,
         currentAya?: string,
-        // currentGoz2?: string,
-        // currentQuarter?: string,
-        // currentSheikh?: string,
+        bookNumber?:string,
+        bookPageNumber?:string,
         tafseerLang?: 'ar' | 'en'
     }
 }
@@ -38,9 +29,8 @@ const initialState: Partial<QuranSliceType> = {
         currentAya: '1',
         currentSura: '1',
         currentPage: '1',
-        // currentGoz2: '1',
-        // currentQuarter: '1',
-        // currentSheikh: 'Husary_64kbps',
+        bookNumber: '1',
+        bookPageNumber: '1',
         tafseerLang: 'ar'
     }
 }

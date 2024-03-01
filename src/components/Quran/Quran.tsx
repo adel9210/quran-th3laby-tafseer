@@ -1,11 +1,12 @@
 import './Quran.scss';
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import {QuranPage} from "./QuranPage/QuranPage";
 import {useDispatch, useSelector} from "react-redux";
 import {getTafseerState} from "../../redux/selectors";
 import {setBulkFilters, setFilter} from "../../redux/quran.slice";
 import {useLocation} from 'react-router-dom';
 import {isMobile} from "../../lib";
+import {getSuraInfo} from "../../services/client.service";
 
 const isPageValid = (page: number) => {
     return page > 0 && page <= 604
@@ -19,7 +20,7 @@ export const Quran = () => {
 
     const handleNavigation = (event: React.MouseEvent, state: 'next' | 'prev') => {
         event.preventDefault()
-        const nextPage = (Number(filter?.currentPage) + (state === 'next' ? 1 : -1))
+        const nextPage = (Number(filter?.bookPageNumber) + (state === 'next' ? 1 : -1))
 
         if (!isPageValid(nextPage)) {
             return;
@@ -27,12 +28,12 @@ export const Quran = () => {
 
         if (state === 'next') {
             dispatch(setFilter({
-                key: 'currentPage',
+                key: 'bookPageNumber',
                 value: nextPage.toString()
             }))
         } else {
             dispatch(setFilter({
-                key: 'currentPage',
+                key: 'bookPageNumber',
                 value: nextPage.toString()
             }))
         }
@@ -58,6 +59,24 @@ export const Quran = () => {
     }, [filter]);
 
 
+    useEffect(()=>{
+        (async ()=>{
+           const response:any = await getSuraInfo(filter?.tafseerLang || 'en', filter?.currentSura || '1')
+            const currentBook = response.ayaList?.filter((item:any) => Number(item.no) === Number(filter?.currentAya))?.[0];
+
+            dispatch(setFilter({
+                key: 'bookNumber',
+                value: currentBook.bookNumber
+            }))
+
+            dispatch(setFilter({
+                key: 'bookPageNumber',
+                value: currentBook?.bookPage
+            }))
+        })()
+    }, [filter?.currentSura, filter?.currentAya])
+
+
     useEffect(() => {
         const getUrlParams = (search: string): Record<string, string> => {
             const params = new URLSearchParams(search);
@@ -81,15 +100,6 @@ export const Quran = () => {
         <div className={`quran ${isMobileDevice ? 'quran--mobile' : ''}`}>
             <div className="quran__view">
                 <QuranPage/>
-            </div>
-
-            <div className='quran__controls'>
-                <a href="" onClick={(e) => handleNavigation(e, 'prev')} title='Prev'>
-                    <img src={require('../../assets/images/right-arrow.png')} alt=''/>
-                </a>
-                <a href="" onClick={(e) => handleNavigation(e, 'next')} title='Next'>
-                    <img src={require('../../assets/images/left-arrow.png')} alt=''/>
-                </a>
             </div>
         </div>
     </div>

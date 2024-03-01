@@ -7,7 +7,7 @@ import {ModalsContainer} from "./components/ModalsContainer/ModalsContainer";
 import {BrowserRouter} from "react-router-dom";
 import {MobileHeader} from "./components/MobileHeader/MobileHeader";
 import {isMobile} from "./lib";
-import 'react-pdf/dist/Page/AnnotationLayer.css';
+// import 'react-pdf/dist/Page/AnnotationLayer.css';
 
 function App() {
     const isMobileDevice = isMobile()

@@ -12,6 +12,18 @@ export interface AyaTafseer {
     text: string
 }
 
+export interface SuraInfoResponse  {
+    index: number,
+    arabicName: string,
+    englishName: string,
+    frankName: string,
+    ayaList: {
+    no: number,
+    bookNumber: number,
+    bookPage: number
+    }[]
+}
+
 export const SuraList: [number, number, number, number, string, string, string, string, number, number][] = [
     // [start, ayas, order, rukus, name, tname, ename, type, pageStart, pageEnd]
     [0, 7, 5, 1, 'الفاتحة', "Al-Faatiha", 'The Opening', 'Meccan', 1, 1],

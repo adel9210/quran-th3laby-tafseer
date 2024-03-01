@@ -1,56 +1,69 @@
 import React, {useEffect, useState} from 'react';
-import { Document, Page, pdfjs } from 'react-pdf';
+// import {Document, Page, pdfjs} from 'react-pdf';
 import {useSelector} from "react-redux";
 import {getTafseerState} from "../../../redux/selectors";
 import './TafseerViewer.scss'
 import {isMobile} from "../../../lib";
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
+// pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
-interface PdfViewerProps {
-    pdfSrc: string; // Dynamic PDF source
-}
-
-const PdfViewer: React.FC<PdfViewerProps> = ({ pdfSrc }) => {
-    const [numPages, setNumPages] = useState<number | null>(null);
+const PdfViewer: React.FC = () => {
     const {filter} = useSelector(getTafseerState)
-    const [, setPageNumberValue] = useState(0)
-    const pageNumber = +(filter?.currentPage || 1)
-    const [windowDimensions, setWindowDimensions] = useState({
-        width: 900,
-        height: 500,
-    });
-    const [scale, setScale] = useState(1)
-    const onDocumentLoadSuccess = ({ numPages }: { numPages: number }) => {
-        setNumPages(numPages);
+    const pageNumber = +(filter?.bookPageNumber || 1)
+    const [pdfSource, setPdfSource] = useState('')
+
+
+    const onDocumentLoadSuccess = ({numPages}: { numPages: number }) => {
+
     };
 
+
     useEffect(() => {
-        const handleResize = () => {
-           if (isMobile()){
-               const container = document.querySelector('.container') as any
-               setWindowDimensions({
-                   width: container.offsetWidth - 30,
-                   height: 500,
+        if (filter && filter.bookNumber) {
+              setPdfSource(`https://al-thalabi.com/books/${filter?.tafseerLang}/${filter?.bookNumber}.pdf`)
+        }
+    }, [filter?.bookNumber, filter?.bookPageNumber]);
+
+
+    useEffect(() => {
+        $('.flipbook-currentPageInput').val(pageNumber)
+        $('.flipbook-currentPageHolder form').submit()
+    }, [pageNumber]);
+
+
+    useEffect(()=>{
+       if (pdfSource){
+           // @ts-ignore
+           $(document).ready(function () {
+               // @ts-ignore
+               $('#flipContainer')?.flipBook({
+                   pdfUrl: pdfSource,
+                   backgroundColor: '#ddd',
+                   rightToLeft:true,
+                   btnSound: { hAlign: 'left' },
+                   singlePageMode: window.innerWidth > 700 ? false : true,
+                   assets: {
+                       flipMp3: "flipbook/assets/mp3/turnPage2.mp3",
+                   },
+                   btnSearch: {
+                       enabled: true,
+                       title: 'Search',
+                       icon: 'fas fa-search',
+                   },
                });
-           }
-        };
-
-        handleResize()
-    }, []);
-
-    const zoomIn = ()=>{
-        setScale(scale + .1)
-    }
+           });
+       }
+    }, [pdfSource])
 
 
     return (
-        <div>
-            <div className='pdf-document'>
-                <Document file={pdfSrc} onLoadSuccess={onDocumentLoadSuccess}>
-                    <Page  scale={scale} renderTextLayer={false} renderMode='canvas' width={windowDimensions.width} height={windowDimensions.height} pageNumber={pageNumber} />
-                </Document>
-            </div>
+        <div id='flipContainer' style={{height: '80vh'}}>
+            {/*<div className='pdf-document'>*/}
+            {/*    <Document file={pdfSource} onLoadSuccess={onDocumentLoadSuccess}>*/}
+            {/*        <Page scale={scale} renderTextLayer={false} renderMode='canvas' width={windowDimensions.width}*/}
+            {/*              height={windowDimensions.height} pageNumber={pageNumber}/>*/}
+            {/*    </Document>*/}
+            {/*</div>*/}
         </div>
     );
 };

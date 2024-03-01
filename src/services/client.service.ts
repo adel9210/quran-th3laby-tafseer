@@ -3,10 +3,10 @@ import List from '../mock/quran-sura.json'
 import Quarters from '../mock/quran-hazb-quarter.json'
 import Pages from '../mock/quran-pages.json'
 import Goz2Items from '../mock/quran-goz2.json'
-import {Aya, AyaTafseer} from "../quranData";
+import {Aya, AyaTafseer, SuraInfoResponse} from "../quranData";
 
 export const axiosInstance = axios.create({
-    baseURL: 'https://al-th3labe.omgsys.com/json/',
+    baseURL: 'https://al-thalabi.com/json/',
     timeout: 0,
     headers: {'X-Custom-Header': 'foobar'}
 });
@@ -56,8 +56,8 @@ export const getGoz2Details = (goz2Number: number): typeof Goz2Items => {
 }
 
 
-export const getPageTafseer = async (language:string, pageNumber: number) => {
-    const response = await axiosInstance.get<AyaTafseer[]>(`TafseerPages/${language}/${pageNumber}.json`)
+export const getSuraInfo = async (language:string, suraNumber: string) => {
+    const response = await axiosInstance.get<SuraInfoResponse>(`pdftafsir/${language}/${suraNumber}.json`)
     return response.data
 }
 

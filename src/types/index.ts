@@ -16,4 +16,4 @@ export interface Tafseer {
 
 
 export type ModalTypes = 'isSuraModalOpen' | 'isAyaModalOpen' | 'isPageModalOpen' | 'isGoz2ModalOpen' | 'isTafseerModalOpen' | 'isMobileFilterModalOpen'
-export type filterTypes = 'currentPage' | 'currentSura' | 'currentAya' | 'currentGoz2' | 'currentSheikh' | 'currentQuarter' | 'tafseerLang'
+export type filterTypes = 'currentPage' | 'currentSura' | 'currentAya' | 'currentGoz2' | 'currentSheikh' | 'currentQuarter' | 'tafseerLang' | 'bookNumber' | 'bookPageNumber'
