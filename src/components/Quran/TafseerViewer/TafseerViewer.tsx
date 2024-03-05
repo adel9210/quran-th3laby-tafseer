@@ -38,12 +38,15 @@ const PdfViewer: React.FC = () => {
                // @ts-ignore
                $('#flipContainer')?.flipBook({
                    pdfUrl: pdfSource,
-                   backgroundColor: '#ddd',
+                   backgroundColor: '#fff',
                    rightToLeft:true,
                    btnSound: { hAlign: 'left' },
-                   singlePageMode: window.innerWidth > 700 ? false : true,
+
                    assets: {
                        flipMp3: "flipbook/assets/mp3/turnPage2.mp3",
+                   },
+                   btnDownloadPages: {
+                       enabled:false
                    },
                    btnSearch: {
                        enabled: true,
